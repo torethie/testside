@@ -1,0 +1,106 @@
+/* Write some CSS below */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  background-color: rgba(254, 254, 254, 1.00);
+}
+
+.button {
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  border-color: black;
+  margin-bottom: 0px;
+  font-size: 17px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: rgba(21, 0, 255, 0.80);
+}
+
+.overskrift {
+  padding: 15px 0px;
+  font-size: 40px;
+  margin-top: 25px;
+}
+
+.underoverskrift {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: bolder;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/bakgrunn.jpg);
+  height: 500px;
+  background-size: cover;
+  }
+
+.banner-text {
+  color: white;
+  text-align: center;
+  padding: 100px 50px;
+}
+
+h2 {
+  margin: 20px 100px;
+  font-weight: lighter;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+h3 {
+  margin-top: -10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.white-cards {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  padding: 24px;
+  margin: 0px 50px;
+}
+
+.white-cards img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.footer {
+  background-color: grey;
+  padding: 7px 0px;
+  margin-top: 25px;
+}
+.footer-text {
+  text-align: center;
+}
